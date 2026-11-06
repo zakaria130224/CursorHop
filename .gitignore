@@ -1,0 +1,35 @@
+# Build output
+build/
+.build/
+DerivedData/
+*.dmg
+*.xcarchive
+*.dSYM/
+*.dSYM.zip
+
+# Xcode per-user state (xcshareddata/ stays tracked: it holds the shared scheme)
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+
+# Signing material and credentials: never commit these
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Claude Code per-user files (CLAUDE.md is shared and stays tracked)
+.claude/settings.local.json
+CLAUDE.local.md
